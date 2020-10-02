@@ -17,7 +17,7 @@ body {
 }
 
 nav {
-  background-color: #5793fd;
+  background-color: #253F51;
   color: #ffffff;
   height: 80px;
   padding: 10px;
@@ -26,11 +26,14 @@ nav {
 }
 
 a,
-a:hover,
 a:active,
 a:visited {
   text-decoration: none;
   color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 header {
@@ -96,6 +99,11 @@ input {
 }
 
 .wrapper {
+  background-image: url(./humphrey-muleba-LOA2mTj1vhc-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   background-color: #f2f8ff;
   padding-bottom: 100px;
 }
@@ -434,4 +442,20 @@ form > button {
     opacity: 0;
     right: -320px;
   }
+}
+
+.complete {
+  background-color: #3B5EA8 !important;
+}
+
+.add {
+  background-color: #F42334 !important;
+}
+
+.complete:hover {
+  background-color: #2b457c !important;
+}
+
+.add:hover {
+  background-color: #9d1823 !important;
 }
