@@ -4,6 +4,8 @@
 
 Track your exercise and workout activity.
 
+[screenshot](./public/screenshot.jpg)
+
 ## User Story
 
 ```
