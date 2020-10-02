@@ -6,6 +6,8 @@ Track your exercise and workout activity.
 
 ![screenshot](./public/screenshot.jpg)
 
+![demo](./public/demo.gif)
+
 ## User Story
 
 ```
