@@ -1,0 +1,21 @@
+{
+  "name": "exercise-journal",
+  "version": "1.0.0",
+  "description": "Track your exercise and workout activity.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.16.3",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1"
+  }
+}
